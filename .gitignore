@@ -1,6 +1,5 @@
 
-/INbreast/data
-/Classic/data/INbreast/dicom
+.Datasets/
 *.xml
 *.png
 *.dcm
