@@ -94,7 +94,7 @@ def extract_regions_from_xml(xml_file, img):
         y_min, y_max = int(min(y_coords)), int(max(y_coords))
 
         cropped = img[y_min:y_max, x_min:x_max]
-        if cropped.size == 0:
+        if cropped.size == 0 or cropped.shape[0] < 64 or cropped.shape[1] < 64:
             continue
 
         resized = cv2.resize(cropped, (64, 64), interpolation=cv2.INTER_AREA)
@@ -111,7 +111,7 @@ def main():
     output_dir = '/home/eflammere/QuantumIC/Datasets/INbreast/png'
     
 
-    rename_dicom_files(dicom_dir)
+    # rename_dicom_files(dicom_dir)
     preprocess_and_save_images(csv_file, root_dir, xml_dir, output_dir)
 
 if __name__ == "__main__":
