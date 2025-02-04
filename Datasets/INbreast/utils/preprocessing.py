@@ -104,11 +104,11 @@ def extract_regions_from_xml(xml_file, img):
 
 def main():
 
-    dicom_dir = '/home/eflammere/QuantumIC/Datasets/INbreast/dicom'
-    csv_file = '/home/eflammere/QuantumIC/Datasets/INbreast/csv/INbreast.csv'
-    root_dir = '/home/eflammere/QuantumIC/Datasets/INbreast/dicom'
-    xml_dir = '/home/eflammere/QuantumIC/Datasets/INbreast/masks'
-    output_dir = '/home/eflammere/QuantumIC/Datasets/INbreast/png'
+    dicom_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/dicom'
+    csv_file = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/csv/INbreast.csv'
+    root_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/dicom'
+    xml_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/masks'
+    output_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/png'
     
 
     # rename_dicom_files(dicom_dir)
