@@ -106,7 +106,7 @@ def main():
 
     dicom_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/dicom'
     csv_file = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/csv/INbreast.csv'
-    root_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/dicom'
+    root_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/original_dicom'
     xml_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/masks'
     output_dir = '/home/eflammere/BreastCancerQuanvolution/Datasets/INbreast/png'
     
