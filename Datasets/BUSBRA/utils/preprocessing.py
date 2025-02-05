@@ -17,7 +17,7 @@ for folder in [train_dir, test_dir]:
     os.makedirs(os.path.join(folder, "0"), exist_ok=True) 
     os.makedirs(os.path.join(folder, "1"), exist_ok=True) 
 
-clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(16, 16))
+clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
 
 def process_csv(csv_path):
     df = pd.read_csv(csv_path)
