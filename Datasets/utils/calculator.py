@@ -3,7 +3,7 @@ from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 
 transform = transforms.Compose([transforms.ToTensor()]) 
-dataset = datasets.ImageFolder("/home/eflammere/BreastCancerQuanvolution/Datasets/BCDR/png", transform=transform)
+dataset = datasets.ImageFolder("/home/eflammere/BreastCancerQuanvolution/Datasets/CBIS/png", transform=transform)
 
 loader = DataLoader(dataset, batch_size=32, shuffle=False)
 

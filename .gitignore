@@ -1,7 +1,6 @@
-
-.Datasets/
 *.xml
 *.png
 *.dcm
 *.dicom
 *.pth
+trainable.ipynb
