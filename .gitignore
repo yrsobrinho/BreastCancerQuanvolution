@@ -4,3 +4,5 @@
 *.dicom
 *.pth
 trainable.ipynb
+Datasets/utils/calculator.py
+Quantum/checkpoints/

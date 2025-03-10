@@ -5,7 +5,7 @@ from torch.utils.data import DataLoader
 transform = transforms.Compose([transforms.ToTensor()]) 
 dataset = datasets.ImageFolder("/home/eflammere/BreastCancerQuanvolution/Datasets/CBIS/png", transform=transform)
 
-loader = DataLoader(dataset, batch_size=32, shuffle=False)
+loader = DataLoader(dataset, batch_size=128, shuffle=False)
 
 mean = torch.zeros(3) 
 std = torch.zeros(3)

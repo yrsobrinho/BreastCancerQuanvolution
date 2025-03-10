@@ -1,14 +1,12 @@
 import cv2
-import numpy as np
 import pandas as pd
 import os
-import shutil
 from sklearn.model_selection import train_test_split
 
 
-min_size = 64  
+min_size = 224  
 images_dir = "/home/eflammere/BreastCancerQuanvolution/Datasets/BCDR/original_png"  
-output_base_dir = "/home/eflammere/BreastCancerQuanvolution/Datasets/BCDR/png_noclahe"  
+output_base_dir = "/home/eflammere/BreastCancerQuanvolution/Datasets/BCDR/png_test"  
 csv_path = "/home/eflammere/BreastCancerQuanvolution/Datasets/BCDR/csv/bcdr_combined_outlines.csv"
 
 train_dir = os.path.join(output_base_dir, "train")
@@ -70,7 +68,7 @@ def process_csv(csv_path):
             lab = cv2.merge((l, a, b))
             enhanced_image = cv2.cvtColor(lab, cv2.COLOR_LAB2BGR)
 
-            resized_image = cv2.resize(enhanced_image, (64, 64), interpolation=cv2.INTER_AREA)
+            resized_image = cv2.resize(enhanced_image, (224, 224), interpolation=cv2.INTER_AREA)
 
             cv2.imwrite(output_path, resized_image)
             print(f"Imagem salva: {output_path}")
