@@ -2,13 +2,3 @@ BCDR
 Batch size: 32 samples
 
 mean=[0.5186, 0.5187, 0.5185], std=[0.1957, 0.1957, 0.1957]
-
-BUSBRA
-Batch size: 256 samples
-
-mean=[0.4166, 0.4167, 0.4165], std=[0.1893, 0.1892, 0.1892]
-
-CBIS 
-Batch size: 128 samples
-
-mean=[0.6234, 0.6234, 0.6234], std=[0.1740, 0.1740, 0.1740]
