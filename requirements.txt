@@ -196,7 +196,7 @@ torchxrayvision==1.2.4
 tornado @ file:///home/conda/feedstock_root/build_artifacts/tornado_1724956131631/work
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1722737464726/work
 traitlets==5.14.3
-transformers==4.48.1
+transformers==4.50.0
 triton==3.0.0
 truststore @ file:///home/conda/feedstock_root/build_artifacts/truststore_1724770958874/work
 types-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/types-python-dateutil_1727940235703/work
