@@ -3,7 +3,7 @@
 *.dcm
 *.dicom
 *.pth
-trainable.ipynb
-Datasets/utils/calculator.py
+*.csv
 Quantum/checkpoints/
 Quantum/model/trainableQuanvolution.ipynb
+/graphic/
