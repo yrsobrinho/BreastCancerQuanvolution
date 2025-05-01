@@ -4,7 +4,7 @@ This repository presents a hybrid classical-quantum machine learning framework f
 
 ## Overview
 
-This project investigates the use of quantum computing—through variational quantum circuits and quantum convolutional neural networks (QCNNs)—in the context of breast cancer detection. It provides implementations for both classical and quantum pipelines and evaluates their performance on standard datasets.
+This project investigates the use of quantum computing—through variational quantum circuits and hybrid quantum convolutional neural networks (HQCNNs)—in the context of breast cancer detection. It provides implementations for both classical and quantum pipelines and evaluates their performance on standard datasets.
 
 ## Project Structure
 
