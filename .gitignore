@@ -6,4 +6,3 @@
 *.csv
 Quantum/checkpoints/
 Quantum/model/trainableQuanvolution.ipynb
-/graphic/
