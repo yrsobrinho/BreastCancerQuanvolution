@@ -34,7 +34,7 @@ This project investigates the use of quantum computing—through variational qua
 └── README.md             # Project documentation
 ```
 
-## 🚀 Features
+## Features
 
 - **Classical Models**: Built with PyTorch for standard deep learning approaches.
 - **Quantum Models**: Developed using PennyLane for quantum-enhanced learning.
@@ -42,7 +42,7 @@ This project investigates the use of quantum computing—through variational qua
 - **Performance Visualization**: Scripts and notebooks to generate and compare ROC curves.
 - **Hybrid Analysis**: Provides side-by-side performance evaluations between classical and quantum models.
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository:
 
@@ -75,7 +75,7 @@ Dataset-specific download instructions and preprocessing steps can be found in t
 - **Quantum**: PennyLane
 - **Classical**: PyTorch
 
-## 📄 License
+## License
 
 See the `LICENSE` file for details.
 
