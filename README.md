@@ -9,7 +9,6 @@ This project investigates the use of quantum computing—through variational qua
 ## Project Structure
 
 ```
-├── checkpoints/          # Saved model checkpoints
 ├── classical/            # Classical ML implementations
 │   ├── BCDR/             # Classical models for BCDR dataset
 │   └── BreastMNIST/      # Classical models for BreastMNIST dataset
