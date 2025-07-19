@@ -18,10 +18,6 @@ This project investigates the use of quantum computing—through variational qua
 ├── data/                 # Dataset storage and preprocessing
 │   ├── BCDR/             # BCDR dataset and utilities
 │   └── utils/            # General data preprocessing tools
-├── graphic/              # Visualization and analysis scripts
-│   ├── combined_roc.ipynb # Notebook to plot combined ROC curves
-│   ├── classical/        # ROC curve data for classical models
-│   └── quantum/          # ROC curve data for quantum models
 ├── models/               # Trained models and architecture definitions
 │   ├── classical/        # Classical model architectures
 │   └── quantum/          # Quantum model architectures
