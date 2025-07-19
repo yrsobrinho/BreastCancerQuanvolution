@@ -46,7 +46,7 @@ This project investigates the use of quantum computing—through variational qua
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/BreastCancerQuanvolution.git
+git clone https://github.com/yrsobrinho/BreastCancerQuanvolution.git
 cd BreastCancerQuanvolution
 ```
 
